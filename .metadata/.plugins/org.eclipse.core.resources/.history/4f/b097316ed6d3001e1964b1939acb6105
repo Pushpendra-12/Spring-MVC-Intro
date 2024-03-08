@@ -1,0 +1,17 @@
+<web-app>
+    
+    <servlet>
+        <servlet-name>Spring</servlet-name>
+        <servlet-class></servlet-class>
+    </servlet>
+
+  
+    <servlet-mapping>
+        <servlet-name>myServlet2</servlet-name>
+        <url-pattern>/myservlet2</url-pattern>
+    </servlet-mapping>
+    
+    
+
+</web-app>
+

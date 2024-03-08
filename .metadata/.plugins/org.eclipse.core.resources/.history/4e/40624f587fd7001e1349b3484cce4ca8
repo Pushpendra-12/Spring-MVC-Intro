@@ -1,0 +1,17 @@
+package com.spring.mvc.Dao;
+
+import org.springframework.orm.hibernate5.HibernateTemplate;
+
+import com.spring.mvc.model.User;
+
+public class UserDao {
+	
+	private HibernateTemplate hibernateTemplate;
+	
+	public int saveUser(User user) {
+		
+		int res = (Integer)this.hibernateTemplate.save(user);
+		return res;
+	}
+
+}
